@@ -1,0 +1,44 @@
+.img-papular img {
+  width: 7rem;
+  height: 7rem;
+}
+.img-papular {
+  padding-bottom: 5rem;
+  padding-top: 3rem;
+}
+
+.papular-slider p {
+  padding-right: 1.4rem;
+}
+.slider-2 {
+  background: #ef3c51;
+  width: 90%;
+  margin: 2rem auto;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+.p-div-grid {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+.banners {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  width: 90%;
+  margin: 3rem auto;
+}
+.banners div img {
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}

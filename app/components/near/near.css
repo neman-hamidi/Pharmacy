@@ -1,0 +1,41 @@
+.near {
+    background-color: #F9DF6E;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    width: 90%;
+    margin: 2rem auto;
+    align-items: center;
+}
+.div-zod-img {
+    width: 5rem;
+    height: 5rem;
+    position: relative;
+}
+.div-zod-img img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.discount-2 {
+    position: absolute;
+    bottom: 0;
+    right: .25rem;
+    background-color: #E22D2D ;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    padding: 0.15rem 0.5rem;
+    font-size: 0.75rem;
+    color: white;
+}
+.d-grid-zor {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}

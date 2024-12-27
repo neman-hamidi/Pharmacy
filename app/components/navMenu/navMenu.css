@@ -1,0 +1,23 @@
+.navMenu {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+  padding: 0.25rem;
+  position: absolute;
+  width: 10rem;
+  z-index: 100;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: 2s linear;
+  -webkit-transition: 2s linear;
+  -moz-transition: 2s linear;
+  -ms-transition: 2s linear;
+  -o-transition: 2s linear;
+}
+.navMenu div {
+  position: relative;
+}
+.navMenu div p {
+  font-size: 0.6rem;
+}
+.navMenu p {
+  line-height: 1.75rem;
+}

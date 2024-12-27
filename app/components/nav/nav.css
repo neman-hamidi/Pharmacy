@@ -1,0 +1,78 @@
+.search-in-nav {
+  position: relative;
+  border: 1px solid rgb(217, 217, 217);
+  padding: 0.5rem;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  width: 90%;
+  margin: 1rem auto;
+}
+.search-in-nav input {
+  all: unset;
+}
+.search-in-nav .icon-nav {
+  position: absolute;
+  left: 1rem;
+}
+.btn-nav {
+  border: 1px solid #24ab9a;
+  color: #24ab9a;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  padding: 0.4rem;
+}
+.basket {
+  position: relative;
+}
+.basket div {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  background-color: #f00a71;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  height: 1.25rem;
+  width: 1.25rem;
+  color: white;
+}
+.color-icon-nav {
+  color: #24ab9a;
+}
+.img-nav {
+  width: 5.5rem;
+  height: 5.5rem;
+}
+.nav {
+  width: 90%;
+  margin: 1rem auto;
+  align-items: center;
+}
+.nav-menu {
+  display: flex;
+  gap: 1.5rem;
+  width: 90%;
+  margin: 1rem auto;
+  align-items: center;
+}
+.nav-menu div p {
+  font-size: 0.75rem;
+}
+.btn-nav {
+  padding: 0.5rem;
+  color: #18A686;
+  border: 1px solid #18A686;
+  font-size: 0.8rem;
+  width: 10rem;
+}
+.btn-nav1{
+  color: #f00a71;
+}

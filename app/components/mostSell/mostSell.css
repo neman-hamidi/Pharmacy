@@ -1,0 +1,62 @@
+.mostSell {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 90%;
+  margin: 1rem auto;
+}
+.mostSell div div {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.mostSell2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 90%;
+  margin: 2rem auto;
+  gap: 0.7rem;
+}
+.mostSell2 div img {
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.names-berand {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  width: 90%;
+  margin: 1rem auto;
+  padding: 2rem 0;
+}
+.bg-name-berand {
+  background-color: rgb(246, 246, 246);
+}
+
+.names-berand div img {
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.div-description {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    width: 90%;
+    margin: 2rem auto;
+}
+.div-description img {
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.desc-undersite {
+    width: 90%;
+    margin: 1rem auto;
+}

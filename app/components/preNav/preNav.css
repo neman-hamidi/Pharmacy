@@ -1,0 +1,24 @@
+.prenav {
+    width: 100%;
+    height: 3.25rem;
+    background-image: url("/images/first-nav.png");
+    background-size: cover;
+}
+.prenav-under {
+    display: flex;
+    margin-top: 0.5rem;
+    width: 90%;
+    margin: 1rem auto;
+   
+}
+.prenav-under h5 {
+    padding-left: 1rem;
+    font-size: 0.75rem;
+    padding-right: 0.5rem;
+}
+.underdiv {
+    width: 90%;
+    margin: 0.25rem auto;
+    height: 0.07rem;
+    background-color: rgb(196, 196, 196);
+}

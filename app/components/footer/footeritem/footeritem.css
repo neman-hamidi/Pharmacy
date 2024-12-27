@@ -1,0 +1,14 @@
+.footeritem {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+}
+.img-footer {
+    width: 5rem;
+    height: 5rem;
+}
+.footeritem div p {
+    font-size: 0.85rem;
+}

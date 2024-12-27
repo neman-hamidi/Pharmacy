@@ -1,0 +1,37 @@
+.papularitem2 {
+    background: white;
+    margin: 1rem;
+    position: relative;
+    border: 1px solid rgb(230, 230, 230);
+}
+.papularitem2 div {
+    display: flex;
+    justify-content: center;
+}
+.papularitem2 p {
+    font-size: 0.75rem;
+}
+.papularitem2 div p {
+    padding: .5rem ;
+    font-size: 0.75rem;
+    text-align: justify;
+    height: 4rem;
+}
+.papularitem2 div img {
+    width: 10rem;
+    height: 10rem;
+}
+.discount-number {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: white;
+    background-color: #E22D2D !important;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    padding: .25rem 1rem;
+    font-size: 0.75rem;
+}
