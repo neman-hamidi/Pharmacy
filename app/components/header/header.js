@@ -1,25 +1,20 @@
 "use client";
-import "./header.css";
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
-export default function header() {
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Pagination } from "swiper/modules";
+import imgs from "./Text";
+export default function Header() {
   return (
-    <div>
-      <div className="mt-4">
-        <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
-          <SwiperSlide><img src="/images/slide1.png" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="/images/slide2.png" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="/images/slide3.png" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="/images/slide4.png" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="/images/slide5.png" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="/images/slide6.png" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="/images/slide7.png" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="/images/slide8.png" alt="" /></SwiperSlide>
-        </Swiper>
-      </div>
-    </div>
+    <header className="mt-4">
+      <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
+        {imgs.map((item, index) => (
+          <SwiperSlide key={index}>
+            <img src={item.src} alt="imgs" />
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </header>
   );
 }

@@ -1,15 +1,14 @@
 import "./footeritem.css";
-export default function footeritem({ children, title, desc1, desc2 }) {
+import Image from "next/image";
+export default function footeritem({ src, title, desc1, desc2 }) {
   return (
-    <div>
-      <div className="footeritem">
-        <div className="img-footer">{children}</div>
-        <div>
-          <p>{title}</p>
-          <p className="text-secondary py-2">{desc1}</p>
-          <p className="text-secondary">{desc2}</p>
-        </div>
+    <article className="footeritem">
+      <Image src={src} height="80" width="80" alt="img-footer" />
+      <div>
+        <h3>{title}</h3>
+        <p className="text-secondary py-2">{desc1}</p>
+        <p className="text-secondary">{desc2}</p>
       </div>
-    </div>
+    </article>
   );
 }

@@ -1,4 +1,4 @@
-![Logo](public/images/Pharmacy.jpg)
+![Logo](public/images/Site.jpg)
 This is a [Next.js](https://nextjs.org) project TailwindCss with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

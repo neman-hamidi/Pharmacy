@@ -5,10 +5,6 @@
     justify-items: center;
     align-items: center;
 }
-.img-footer {
-    width: 5rem;
-    height: 5rem;
-}
 .footeritem div p {
     font-size: 0.85rem;
 }
