@@ -13,7 +13,7 @@ export default function Near() {
         </div>
         <div className="col-6 d-grid-zor pe-5">
           {NearText.map((item, index) => (
-            <div className="div-zod-img">
+            <div key={index} className="div-zod-img">
               <img src={item.src} alt="imgs" />
               <div className="discount-2">{item.discount}</div>
             </div>

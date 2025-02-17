@@ -4,7 +4,7 @@ import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import { useState } from "react";
-import NavMenu from "../navMenu/navMenu";
+import NavMenu from "../navMenu/NavMenu";
 import menuItems from "./Text";
 export default function Nav() {
   const [hoveredIndex, setHoveredIndex] = useState(null);

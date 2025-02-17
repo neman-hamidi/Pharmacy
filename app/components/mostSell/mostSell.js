@@ -25,15 +25,15 @@ export default function MostSell() {
         </div>
         <div className="names-berand">
           {namesBerandImgs.slice(0, 6).map((item, index) => (
-            <div>
-              <img key={index} src={item.src} alt="imgs" />
+            <div key={index}>
+              <img src={item.src} alt="imgs" />
             </div>
           ))}
         </div>
       </div>
       <div className="div-description">
         {namesBerandImgs.slice(6).map((item, index) => (
-          <div>
+          <div key={index}>
             <img src={item.src} alt="imgs" />
           </div>
         ))}
