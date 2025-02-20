@@ -1,0 +1,86 @@
+const product = [
+  {
+    desc: "شامپو بدن پسوریازیس سریتا ۲۵۰ میلی لیتر",
+    fakeprice: "345,000",
+    realprice: "244,950",
+    discount: "29%-",
+    srcImg: "/images/4.png",
+  },
+  {
+    desc: "قرص رد جینسینگ پاور مولتی ویتامین و مینرال ویتامین لایف ۳۰ عدد",
+    fakeprice: "207,000",
+    realprice: "189,000",
+    discount: "9%-",
+    srcImg: "/images/3.png",
+  },
+  {
+    desc: "کپسول بلودپرکسیر ادیب اکسیر ۶۰ عدد",
+    fakeprice: "95,000",
+    realprice: "80,750",
+    discount: "15%-",
+    srcImg: "/images/2.png",
+  },
+  {
+    desc: "لوسیون ضد شپش لایس فری سریتا مناسب انواع مو ۵۰ میلی لیتر",
+    fakeprice: "148,900",
+    realprice: "105,700",
+    discount: "29%-",
+    srcImg: "/images/1.png",
+  },
+  {
+    desc: "شربت امگا ۳ اترنیویت ۱۵۰ میلی لیتر",
+    fakeprice: "484,000",
+    realprice: "449,000",
+    discount: "7%-",
+    srcImg: "/images/5.png",
+  },
+  {
+    desc: "شامپو بدن پسوریازیس سریتا ۲۵۰ میلی لیتر",
+    fakeprice: "345,000",
+    realprice: "244,950",
+    discount: "29%-",
+    srcImg: "/images/4.png",
+  },
+  {
+    desc: "قرص رد جینسینگ پاور مولتی ویتامین و مینرال ویتامین لایف ۳۰ عدد",
+    fakeprice: "207,000",
+    realprice: "189,000",
+    discount: "9%-",
+    srcImg: "/images/3.png",
+  },
+  {
+    desc: "کپسول بلودپرکسیر ادیب اکسیر ۶۰ عدد",
+    fakeprice: "95,000",
+    realprice: "80,750",
+    discount: "15%-",
+    srcImg: "/images/2.png",
+  },
+  {
+    desc: "لوسیون ضد شپش لایس فری سریتا مناسب انواع مو ۵۰ میلی لیتر",
+    fakeprice: "148,900",
+    realprice: "105,700",
+    discount: "29%-",
+    srcImg: "/images/1.png",
+  },
+];
+const banners = [
+  { src: "/images/banner1.png" },
+  { src: "/images/banner2.png" },
+  { src: "/images/banner3.png" },
+  { src: "/images/banner4.png" },
+];
+const sliderText = [
+    { src: "/images/maskmo.png", text: "ماسک مو" },
+    { src: "/images/aghayan.png", text: "مکمل آقایان" },
+    { src: "/images/atr.png", text: "عطر و ادکلن" },
+    { src: "/images/banovan.png", text: "بهداشتی بانوان" },
+    { src: "/images/kodakan.png", text: "کودکان" },
+    { src: "/images/laghari.png", text: "قرص لاغری" },
+    { src: "/images/mesvak.png", text: "مسواک و خمیر دندان" },
+    { src: "/images/mokamel.png", text: "مکمل ورزشی" },
+    { src: "/images/ostokhan.png", text: "استخوان و مفاصل" },
+    { src: "/images/shampo.png", text: "شامپو" },
+    { src: "/images/shoyande.png", text: "شوینده بهداشتی" },
+    { src: "/images/zedlak.png", text: "ضد لک" },
+  ];
+export { product, banners, sliderText };

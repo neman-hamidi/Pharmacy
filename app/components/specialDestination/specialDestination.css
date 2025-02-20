@@ -1,0 +1,52 @@
+.under-berand {
+  height: 0.1rem;
+  background-color: rgb(190, 190, 190);
+  position: relative;
+}
+.under-berand::before {
+  content: "";
+  background: green;
+  width: 9%;
+  height: 0.1rem;
+  position: absolute;
+}
+.name-berand {
+  width: 90%;
+  margin: 1rem auto;
+}
+.specialDestination {
+  background-color: rgb(240, 240, 240);
+}
+.special-div {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  width: 80%;
+  margin: 2rem auto;
+}
+.special-div div img {
+  width: 8rem;
+  height: 8rem;
+}
+.special-div div {
+  justify-self: center;
+  text-align: center;
+}
+.special-div div p {
+  color: rgb(128, 128, 128);
+  padding-top: 0.5rem;
+}
+.div-des {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+  width: 90%;
+  margin: 1rem auto;
+  padding-bottom: 4rem;
+}
+.div-des div img {
+  border-radius: 23px;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  -ms-border-radius: 23px;
+  -o-border-radius: 23px;
+}

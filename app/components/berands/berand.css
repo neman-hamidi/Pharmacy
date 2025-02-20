@@ -1,0 +1,35 @@
+.main-berand {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    width: 90%;
+    margin: 1rem auto;
+}
+.berand {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.main-berand div img {
+    width: 15rem;
+    height: 13rem;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.under-berand {
+    height: 0.1rem;
+    background-color: rgb(190, 190, 190);
+    position: relative;
+}
+.under-berand::before {
+    content: "";
+    background: green;
+    width: 9%;
+    height: 0.1rem;
+    position: absolute;
+}
+.name-berand {
+    width: 90%;
+    margin: 1rem auto;
+}
