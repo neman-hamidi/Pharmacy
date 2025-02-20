@@ -1,7 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@font-face {
+  font-family: "vazir";
+  src: url("/Fonts/vazir/Vazir-Medium-FD-WOL.eot"),
+  url("/Fonts/vazir/Vazir-Medium-FD-WOL.ttf"),
+  url("/Fonts/vazir/Vazir-Medium-FD-WOL.woff"),
+  url("/Fonts/vazir/Vazir-Medium-FD-WOL.woff2"),
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -17,5 +24,5 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "vazir";
 }
